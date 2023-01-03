@@ -1,0 +1,88 @@
+* {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+body {
+   background-image: url(./image/plancher-bois.jpg);
+   color: aliceblue;
+  }
+table {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#tableauscore {
+    border: solid;
+    border-color: black;
+    border-radius: 30px;
+    margin-left: 5px;
+    width: 20%;
+    background-color: brown;
+
+}
+#organisation{
+    display: flex;
+    justify-content:flex-start;
+}
+#tableauscore p{
+padding-left: 10px;
+}
+
+td {
+    background-color: brown;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    height: 50px;
+    width: 50px;
+    padding: 10px;
+    box-shadow: 1px 12px 2px 1px rgb(6, 6, 6);
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+
+}
+
+#player {
+    font-size: x-large;
+    text-align: center;
+}
+
+#button {
+    display: flex;
+    justify-content: space-between;
+    color: aliceblue;
+    margin: 10px;
+}
+
+#message {
+    font-size: x-large;
+    margin-left: 270px;
+}
+
+#cpu {
+    width: 20%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color:brown;
+    color: aliceblue;
+    font-size: larger;
+}
+
+#replay {
+    display: none;
+    width: 20%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: larger;
+    border-radius: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    background-color:brown;
+    color: aliceblue;
+}

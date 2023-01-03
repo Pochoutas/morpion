@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./assets/css/style.css" rel="stylesheet">
+    <title>Morpion</title>
+</head>
+<body>
+  <h1> Le morpion qui démange !</h1>
+ <div id="player"> Vous jouez a deux joueur ! Premier joueur vous avez les croix!</div>
+ <div id="button">
+ <button id="cpu" onclick="jesus()">Jouer avec un robot </button>
+ <button id="replay" onclick="replaygame()"> rejouer</button>
+</div>
+<div id="organisation">
+<div id="tableauscore">
+  <p>Score Croix :<span id="croix">0</span></p>
+  <p> Score Rond :<span id="rond">0</span></p>
+</div>
+<div id="message"></div>
+</div>
+    <table>
+      
+      <tr> <td class="cell" onclick="yourchoice(this)"></td> <td class="cell" onclick="yourchoice(this)"></td> <td class="cell"onclick="yourchoice(this)"></td> </tr>
+      
+      <tr> <td class="cell" onclick="yourchoice(this)"></td> <td  class="cell" onclick="yourchoice(this)"></td> <td class="cell"onclick="yourchoice(this)"></td> </tr>
+      
+      <tr> <td class="cell"onclick="yourchoice(this)"></td> <td class="cell"onclick="yourchoice(this)"></td> <td class="cell"onclick="yourchoice(this)"></td> </tr>
+      
+      </table>
+      
+    <script src="./assets/javascript/main.js"></script>
+</body>
+</html>
