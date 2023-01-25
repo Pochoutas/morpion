@@ -1,14 +1,44 @@
-* {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
-}
+#particles-js{ 
+    position:absolute;
+    position: fixed;
+    z-index: -1;
+     width: 100%;
+     height: 100%;
+     background:linear-gradient(#19b66f, #6df8b9);
+    
+    background-repeat: no-repeat;
+    background-position: 50% 50%; } /* ---- stats.js ---- */ 
+    .count-particles{
+         background: #000022;
+          position: absolute;
+         top: 48px;
+         left: 0; 
+         width: 80px;
+          color: #000000;
+           font-size: .8em;
+          text-align: left; 
+          text-indent: 4px; 
+          line-height: 14px;
+           padding-bottom: 2px; font-family: Helvetica, Arial, sans-serif; 
+           font-weight: bold; } 
+           .js-count-particles{ font-size: 1.1em; } 
+           #stats, .count-particles{ 
+            -webkit-user-select: none; margin-top: 5px;
+             margin-left: 5px; }
+            #stats{ 
+                border-radius: 3px 3px 0 0; 
+                overflow: hidden; } 
+.count-particles{ border-radius: 0 0 3px 3px; }
 body {
-   background-image: url(./image/plancher-bois.jpg);
-   color: aliceblue;
+    margin: 0px;
+   color: rgb(17, 17, 17);
+   overflow: hidden;
   }
 table {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 8%;
 
 }
 
@@ -18,7 +48,7 @@ table {
     border-radius: 30px;
     margin-left: 5px;
     width: 20%;
-    background-color: brown;
+    background-color: rgb(218, 228, 213);
 
 }
 #organisation{
@@ -30,20 +60,21 @@ padding-left: 10px;
 }
 
 td {
-    background-color: brown;
+    background-color :rgb(218, 228, 213);
     border-width: 1px;
     border-style: solid;
     border-color: rgb(0, 0, 0);
     height: 50px;
     width: 50px;
     padding: 10px;
+    border-radius: 10px;
     box-shadow: 1px 12px 2px 1px rgb(6, 6, 6);
 }
 
 h1 {
     text-align: center;
     text-decoration: underline;
-
+margin-top: 0px;
 }
 
 #player {
@@ -54,7 +85,7 @@ h1 {
 #button {
     display: flex;
     justify-content: space-between;
-    color: aliceblue;
+    color: rgb(0, 0, 0);
     margin: 10px;
 }
 
@@ -69,8 +100,8 @@ h1 {
     padding-bottom: 5px;
     border-radius: 10px;
     cursor: pointer;
-    background-color:brown;
-    color: aliceblue;
+    background-color:rgb(218, 228, 213);
+    color: rgb(18, 17, 17);
     font-size: larger;
 }
 
@@ -83,6 +114,6 @@ h1 {
     border-radius: 10px;
     margin-top: 10px;
     cursor: pointer;
-    background-color:brown;
-    color: aliceblue;
+    background-color:rgb(218, 228, 213);
+    color: rgb(16, 16, 16);
 }

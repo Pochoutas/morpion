@@ -5,14 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="./assets/css/style.css" rel="stylesheet">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
     <title>Morpion</title>
 </head>
 <body>
+<div id="particles-js"></div>
   <h1> Le morpion qui démange !</h1>
  <div id="player"> Vous jouez a deux joueur ! Premier joueur vous avez les croix!</div>
  <div id="button">
- <button id="cpu" onclick="jesus()">Jouer avec un robot </button>
- <button id="replay" onclick="replaygame()"> rejouer</button>
+ <button id="cpu" class="animate__animated animate__pulse animate__infinite	infinite" onclick="jesus()">Jouer avec un robot </button>
+ <button id="replay" class="animate__animated animate__pulse animate__infinite	infinite" onclick="replaygame()"> rejouer</button>
 </div>
 <div id="organisation">
 <div id="tableauscore">
@@ -30,7 +35,8 @@
       <tr> <td class="cell"onclick="yourchoice(this)"></td> <td class="cell"onclick="yourchoice(this)"></td> <td class="cell"onclick="yourchoice(this)"></td> </tr>
       
       </table>
-      
+  
+   <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> <!-- stats.js lib --> <script src="http://threejs.org/examples/js/libs/stats.min.js"></script>    
     <script src="./assets/javascript/main.js"></script>
 </body>
 </html>
