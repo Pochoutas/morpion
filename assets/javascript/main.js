@@ -97,6 +97,8 @@ function cpugame() {
 }
 
 
+
+
 function checkvictory() {
   let cells = document.querySelectorAll(".cell");
   for (let i = 0; i < gridvictory.length; i++) {
